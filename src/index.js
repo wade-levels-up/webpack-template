@@ -1,18 +1,8 @@
 import "./style.css";
-
-import { renderAbout } from "./about";
-import { renderHome } from "./home";
-import { renderMenu } from "./menu";
-
-const navBtns = Array.from(document.querySelectorAll('.navButton'));
-const [homeBtn, menuBtn, aboutBtn] = navBtns;
+import { test } from './createDOMEl.js';
 
 const initLoad = (function() {
-    window.addEventListener('DOMContentLoaded', renderHome());
+    window.addEventListener('DOMContentLoaded', console.log(test));
 })();
 
-homeBtn.addEventListener('click', renderHome);
 
-menuBtn.addEventListener('click', renderMenu);
-
-aboutBtn.addEventListener('click', renderAbout);
