@@ -1,4 +1,4 @@
-# project name goes here **\*\***\***\*\***
+# project name goes here
 
 Project Outline:
 
@@ -6,4 +6,4 @@ This is a project I undertook as part of The Odin Project curriculum. The primar
 
 Challenges:
 
-Completed _/_/\*\*
+Completed -date-
