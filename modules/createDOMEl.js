@@ -6,7 +6,7 @@ export function createDOMElement(
   att2,
   attVal2,
 ) {
-  let element = document.createElement(tag);
+  const element = document.createElement(tag); // eslint-disable-line
   if (textContent) {
     element.textContent = textContent;
   }
