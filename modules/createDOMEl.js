@@ -19,4 +19,4 @@ export function createDOMElement(
   return element;
 }
 
-export const test = "DOM Content Loaded! :)";
+export const test = 'DOM Content Loaded! :)';
